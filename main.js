@@ -36,10 +36,10 @@ function createBoardEventListeners(){
     const squares = document.querySelectorAll(`#gameArea h2`);
 
     const buttonPressed = e => {
-        console.log(e.target.innerHTML);
-        console.log(e.target.classList);  // Get ID of Clicked Element
+
+        solution.innerHTML = '';
+
         let x = document.getElementById(e.target.id).parentNode;
-        console.log(x);
         e.target.classList.add(`clicked`);
         x.classList.add(`clicked`);
         let y = document.getElementById(e.target.id);
