@@ -1,0 +1,36 @@
+.container{
+  color: #d7cb1a;
+  text-shadow: 1px 1px 2px black;
+}
+
+#basic-addon1{
+  color: #d7cb1a;
+  text-shadow: 1px 1px 2px black;
+}
+#submit {
+  color: #d7cb1a;
+  text-shadow: 1px 1px 2px black;
+}
+
+  .square{
+    text-align: center;
+    background-color: blue;
+    border: solid black;
+
+  }
+
+  .square:hover {
+    background-color: darkblue;
+  }
+  .clicked{
+    background-color: grey;
+  }
+
+
+.col
+{
+ width: 40px;
+ height:40px;
+}
+
+
